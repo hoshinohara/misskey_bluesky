@@ -1,10 +1,7 @@
 {
-  "deploy": {
-    "project": "f3674742-df33-4033-94de-d194f9253bc1",
-    "exclude": [
-      "**/node_modules"
-    ],
-    "include": [],
-    "entrypoint": "index.ts"
-  }
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "start": "deno run -A index.ts"
+  },
+  "entrypoint": "index.ts"
 }
