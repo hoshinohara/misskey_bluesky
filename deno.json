@@ -1,7 +1,9 @@
 {
   "nodeModulesDir": "auto",
+  "imports": {
+    "@atproto/api": "npm:@atproto/api@^0.6.0"
+  },
   "tasks": {
     "start": "deno run -A index.ts"
-  },
-  "entrypoint": "index.ts"
+  }
 }
